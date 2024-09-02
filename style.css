@@ -38,11 +38,11 @@ body{
     animation: charmovingright 0.5s infinite;
 }
 @keyframes charmovingright{
-    0%{background-image: url(char/char-walking-right/char-walking-right1.png);}
-    25%{background-image: url(char/char-walking-right/char-walking-right2.png);}
-    50%{background-image: url(char/char-walking-right/char-walking-right3.png);}
-    75%{background-image: url(char/char-walking-right/char-walking-right4.png);}
-    100%{background-image: url(char/char-walking-right/char-walking-right5.png);}
+    0%{background-image: url(/char/char-walking-right/char-walking-right1.png);}
+    25%{background-image: url(/char/char-walking-right/char-walking-right2.png);}
+    50%{background-image: url(/char/char-walking-right/char-walking-right3.png);}
+    75%{background-image: url(/char/char-walking-right/char-walking-right4.png);}
+    100%{background-image: url(/char/char-walking-right/char-walking-right5.png);}
 }
 
 .charWalkingTopAnimation{
