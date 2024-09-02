@@ -34,7 +34,7 @@ body{
     75%{background-image: url(char/char-idle/char-idle4.png);}
     100%{background-image: url(char/char-idle/char-idle5.png);}
 }
-{
+.charWalkingRightAnimation{
     animation: charmovingright 0.5s infinite;
 }
 @keyframes charmovingright{
