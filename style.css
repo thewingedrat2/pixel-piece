@@ -7,7 +7,7 @@ body{
     width: 100%;
     height: 100%;
     background-size: 2000px;
-    background-image: url(islands/pirate-island.png);
+    background-image: url(/pixel-piece/islands/pirate-island.png);
     position: absolute;
     background-position-y: -2635px;
     background-position-x: -2456px;
@@ -20,7 +20,7 @@ body{
     top: 325px;
     width: 20px;
    background-size: cover;
-    background-image: url(char/char-idle/char-idle1.png);   
+    background-image: url(/pixel-piece/char/char-idle/char-idle1.png);   
 }
 
 .charIdleAnimation{
@@ -28,21 +28,21 @@ body{
 }
 
 @keyframes charidle{
-    0%{background-image: url(char/char-idle/char-idle1.png);}
-    25%{background-image: url(char/char-idle/char-idle2.png);}
-    50%{background-image: url(char/char-idle/char-idle3.png);}
-    75%{background-image: url(char/char-idle/char-idle4.png);}
-    100%{background-image: url(char/char-idle/char-idle5.png);}
+    0%{background-image: url(/pixel-piece/char/char-idle/char-idle1.png);}
+    25%{background-image: url(/pixel-piece/char/char-idle/char-idle2.png);}
+    50%{background-image: url(/pixel-piece/char/char-idle/char-idle3.png);}
+    75%{background-image: url(/pixel-piece/char/char-idle/char-idle4.png);}
+    100%{background-image: url(/pixel-piece/char/char-idle/char-idle5.png);}
 }
 .charWalkingRightAnimation{
     animation: charmovingright 0.5s infinite;
 }
 @keyframes charmovingright{
-    0%{background-image: url(char/char-walking-right/char-walking-right1.png);}
-    25%{background-image: url(char/char-walking-right/char-walking-right2.png);}
-    50%{background-image: url(char/char-walking-right/char-walking-right3.png);}
-    75%{background-image: url(char/char-walking-right/char-walking-right4.png);}
-    100%{background-image: url(char/char-walking-right/char-walking-right5.png);}
+    0%{background-image: url(/pixel-piece/char/char-walking-right/char-walking-right1.png);}
+    25%{background-image: url(/pixel-piece/char/char-walking-right/char-walking-right2.png);}
+    50%{background-image: url(/pixel-piece/char/char-walking-right/char-walking-right3.png);}
+    75%{background-image: url(/pixel-piece/char/char-walking-right/char-walking-right4.png);}
+    100%{background-image: url(/pixel-piece/char/char-walking-right/char-walking-right5.png);}
 }
 
 .charWalkingTopAnimation{
@@ -50,10 +50,10 @@ body{
 }
 
 @keyframes charmovingtop{
-    0%{background-image: url(char/char-walking-top/char-walking-top1.png);}
-    37%{background-image: url(char/char-walking-top/char-walking-top2.png);}
-    75%{background-image: url(char/char-walking-top/char-walking-top3.png);}
-    100%{background-image: url(char/char-walking-top/char-walking-top4.png);}
+    0%{background-image: url(/pixel-piece/char/char-walking-top/char-walking-top1.png);}
+    37%{background-image: url(/pixel-piece/char/char-walking-top/char-walking-top2.png);}
+    75%{background-image: url(/pixel-piece/char/char-walking-top/char-walking-top3.png);}
+    100%{background-image: url(/pixel-piece/char/char-walking-top/char-walking-top4.png);}
     
 }
 
@@ -61,20 +61,20 @@ body{
     animation: charmovingbottom 0.5s infinite;
 }
 @keyframes charmovingbottom{
-    0%{background-image: url(char/char-walking-bottom/char-walking-bottom1.png);}
-    37%{background-image: url(char/char-walking-bottom/char-walking-bottom2.png);}
-    75%{background-image: url(char/char-walking-bottom/char-walking-bottom3.png);}
-    100%{background-image: url(char/char-walking-bottom/char-walking-bottom4.png);}
+    0%{background-image: url(/pixel-piece/char/char-walking-bottom/char-walking-bottom1.png);}
+    37%{background-image: url(/pixel-piece/char/char-walking-bottom/char-walking-bottom2.png);}
+    75%{background-image: url(/pixel-piece/char/char-walking-bottom/char-walking-bottom3.png);}
+    100%{background-image: url(/pixel-piece/char/char-walking-bottom/char-walking-bottom4.png);}
 }
 .charWalkingLeftAnimation{
     animation: charmovingleft 0.5s infinite;
 }
 @keyframes charmovingleft{
-    0%{background-image: url(char/char-walking-left/char-walking-left1.png);}
-    25%{background-image: url(char/char-walking-left/char-walking-left2.png);}
-    50%{background-image: url(char/char-walking-left/char-walking-left3.png);}
-    75%{background-image: url(char/char-walking-left/char-walking-left4.png);}
-    100%{background-image: url(char/char-walking-left/char-walking-left5.png);}
+    0%{background-image: url(/pixel-piece/char/char-walking-left/char-walking-left1.png);}
+    25%{background-image: url(/pixel-piece/char/char-walking-left/char-walking-left2.png);}
+    50%{background-image: url(/pixel-piece/char/char-walking-left/char-walking-left3.png);}
+    75%{background-image: url(/pixel-piece/char/char-walking-left/char-walking-left4.png);}
+    100%{background-image: url(/pixel-piece/char/char-walking-left/char-walking-left5.png);}
 }
 
 .bandit{
