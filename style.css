@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.pirateisland{
+    width: 100%;
+    height: 100%;
+    background-size: 2000px;
+    background-image: url(/pixelPiece/islands/pirate-island.png);
+    position: absolute;
+    background-position-y: -2635px;
+    background-position-x: -2456px;
+}
+/*character*/
+.char{
+    position: absolute;
+    height: 30px;
+    left: 785px;
+    top: 325px;
+    width: 20px;
+   background-size: cover;
+    background-image: url(char/char-idle/char-idle1.png);   
+}
+
+.charIdleAnimation{
+    animation: charidle 0.5s infinite;
+}
+
+@keyframes charidle{
+    0%{background-image: url(/pixelPiece/char/char-idle/char-idle1.png);}
+    25%{background-image: url(/pixelPiece/char/char-idle/char-idle2.png);}
+    50%{background-image: url(/pixelPiece/char/char-idle/char-idle3.png);}
+    75%{background-image: url(/pixelPiece/char/char-idle/char-idle4.png);}
+    100%{background-image: url(/pixelPiece/char/char-idle/char-idle5.png);}
+}
+
+.charWalkingRightAnimation{
+    animation: charmovingright 0.5s infinite;
+}
+@keyframes charmovingright{
+    0%{background-image: url(/pixelPiece/char/char-walking-right/char-walking-right1.png);}
+    25%{background-image: url(/pixelPiece/char/char-walking-right/char-walking-right2.png);}
+    50%{background-image: url(/pixelPiece/char/char-walking-right/char-walking-right3.png);}
+    75%{background-image: url(/pixelPiece/char/char-walking-right/char-walking-right4.png);}
+    100%{background-image: url(/pixelPiece/char/char-walking-right/char-walking-right5.png);}
+}
+
+.charWalkingTopAnimation{
+    animation: charmovingtop 0.5s infinite;
+}
+
+@keyframes charmovingtop{
+    0%{background-image: url(/pixelPiece/char/char-walking-top/char-walking-top1.png);}
+    37%{background-image: url(/pixelPiece/char/char-walking-top/char-walking-top2.png);}
+    75%{background-image: url(/pixelPiece/char/char-walking-top/char-walking-top3.png);}
+    100%{background-image: url(/pixelPiece/char/char-walking-top/char-walking-top4.png);}
+    
+}
+
+.charWalkingBottomAnimation{
+    animation: charmovingbottom 0.5s infinite;
+}
+@keyframes charmovingbottom{
+    0%{background-image: url(/pixelPiece/char/char-walking-bottom/char-walking-bottom1.png);}
+    37%{background-image: url(/pixelPiece/char/char-walking-bottom/char-walking-bottom2.png);}
+    75%{background-image: url(/pixelPiece/char/char-walking-bottom/char-walking-bottom3.png);}
+    100%{background-image: url(/pixelPiece/char/char-walking-bottom/char-walking-bottom4.png);}
+}
+.charWalkingLeftAnimation{
+    animation: charmovingleft 0.5s infinite;
+}
+@keyframes charmovingleft{
+    0%{background-image: url(/pixelPiece/char/char-walking-left/char-walking-left1.png);}
+    25%{background-image: url(/pixelPiece/char/char-walking-left/char-walking-left2.png);}
+    50%{background-image: url(/pixelPiece/char/char-walking-left/char-walking-left3.png);}
+    75%{background-image: url(/pixelPiece/char/char-walking-left/char-walking-left4.png);}
+    100%{background-image: url(/pixelPiece/char/char-walking-left/char-walking-left5.png);}
+}
+
+.bandit{
+    position: absolute;
+    height: 30px;
+    width: 20px;
+    left: 450px;
+    top: 200px;
+    background-color: blue;
+}
+
+.collision1{
+    width: 10px;
+    height: 300px;
+    top: 200px;
+    left: 260px;
+    opacity: 0;
+    background-color: green;
+    position: absolute;
+}
+.collision2{
+    width: 550px;
+    height: 10px;
+    top: 464px;
+    left: 260px;
+    opacity: 0;
+    background-color: green;
+    position: absolute;
+}
+.collision3{
+    width: 300px;
+    height: 10px;
+    top: 145px;
+    left: 320px;
+    opacity: 0;
+    
+
+    background-color: green;
+    position: absolute;
+}
+
+
+/*health bar*/
+
+
+.healthbar{
+    top: 500px;
+    left: 70px;
+    position: absolute;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: white;
+    border: 6px black solid;
+}
+.greenbar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 189, 2);
+}
+.health{
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    left: 20px;
+    top: 12px;
+    font-size: 15px;
+}
